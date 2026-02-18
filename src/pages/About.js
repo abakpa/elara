@@ -39,17 +39,17 @@ const About = () => {
     {
       name: 'Isaac Ogwu Omale',
       role: 'Founder & CEO',
-      image: '/images/team/isaac-ogwu-omale.png',
+      image: '/images/team/isaac.png',
     },
     {
       name: 'Gloria Inah',
       role: 'Managing Director',
-      image: '/images/team/gloria-inah.png',
+      image: '/images/team/gloria.png',
     },
     {
       name: 'Victor Idumajogwu',
       role: 'Operations Manager',
-      image: '/images/team/victor-idumajogwu.png',
+      image: '/images/team/victor.jpeg',
     },
   ];
 

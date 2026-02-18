@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaWhatsapp, FaTiktok } from 'react-icons/fa';
 import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi';
 
 const Footer = () => {
@@ -47,12 +47,15 @@ const Footer = () => {
               {[
                 { icon: FaFacebookF, href: '#' },
                 { icon: FaTwitter, href: '#' },
-                { icon: FaInstagram, href: '#' },
+                { icon: FaInstagram, href: 'https://www.instagram.com/el_aras_wash?igsh=ZWI5NjJ4OXB3YW13' },
+                { icon: FaTiktok, href: 'https://www.tiktok.com/@elaras.wash?_r=1&_t=ZS-93h3HnRA4CP' },
                 { icon: FaLinkedinIn, href: '#' },
               ].map((social, index) => (
                 <a
                   key={index}
                   href={social.href}
+                   target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-elara-600 transition-colors"
                 >
                   <social.icon className="text-sm" />
