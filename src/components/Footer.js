@@ -49,7 +49,7 @@ const Footer = () => {
                 // { icon: FaTwitter, href: '#' },
                 { icon: FaInstagram, href: 'https://www.instagram.com/el_aras_wash?igsh=ZWI5NjJ4OXB3YW13' },
                 { icon: FaTiktok, href: 'https://www.tiktok.com/@elaras.wash?_r=1&_t=ZS-93h3HnRA4CP' },
-                { icon: FaLinkedinIn, href: '##' },
+                // { icon: FaLinkedinIn, href: '##' },
               ].map((social, index) => (
                 <a
                   key={index}
