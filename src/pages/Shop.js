@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiShoppingCart, HiPhone, HiCheck } from 'react-icons/hi';
+import { HiShoppingCart, HiPhone } from 'react-icons/hi';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Shop = () => {
@@ -10,7 +10,7 @@ const Shop = () => {
       description: 'Heavy-duty commercial washing machine perfect for laundry businesses. High capacity, energy efficient.',
       capacity: '15kg - 25kg',
       price: 'Contact for Price',
-      image: 'https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600&q=80',
+      image: '/images/shop/machines/Screenshot 2026-02-25 at 08.39.51.png',
       features: ['Energy Efficient', 'Multiple Wash Programs', 'Stainless Steel Drum', 'Low Noise Operation'],
     },
     {
@@ -19,7 +19,7 @@ const Shop = () => {
       description: 'Professional-grade dryer with fast drying cycles and gentle fabric care technology.',
       capacity: '15kg - 20kg',
       price: 'Contact for Price',
-      image: 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=600&q=80',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.17.25 (1).jpeg',
       features: ['Quick Dry Technology', 'Multiple Heat Settings', 'Large Capacity', 'Auto Sensor'],
     },
     {
@@ -28,7 +28,7 @@ const Shop = () => {
       description: 'Industrial steam press for crisp, professional finishing on all types of garments.',
       capacity: 'Professional Grade',
       price: 'Contact for Price',
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.17.25 (2).jpeg',
       features: ['High Steam Output', 'Temperature Control', 'Non-Stick Plates', 'Safety Features'],
     },
     {
@@ -37,8 +37,80 @@ const Shop = () => {
       description: 'Eco-friendly dry cleaning system for delicate fabrics and professional garment care.',
       capacity: '10kg - 15kg',
       price: 'Contact for Price',
-      image: 'https://images.unsplash.com/photo-1545173168-9f1947eebb7f?w=600&q=80',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.17.25 (3).jpeg',
       features: ['Eco-Friendly Solvent', 'Gentle on Fabrics', 'Self-Cleaning', 'Digital Controls'],
+    },
+    {
+      id: 5,
+      name: 'Commercial Ironing System',
+      description: 'Professional ironing system with steam generator for high-volume pressing needs.',
+      capacity: 'Heavy Duty',
+      price: 'Contact for Price',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.17.25.jpeg',
+      features: ['Steam Generator', 'Adjustable Height', 'Anti-Shine Plates', 'Auto Shut-Off'],
+    },
+    {
+      id: 6,
+      name: 'Washer-Extractor Machine',
+      description: 'High-speed extraction washing machine for maximum water removal and faster drying.',
+      capacity: '20kg - 30kg',
+      price: 'Contact for Price',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.31.46 (1).jpeg',
+      features: ['High-Speed Extract', 'Programmable Controls', 'Water Recycling', 'Heavy Duty Motor'],
+    },
+    {
+      id: 7,
+      name: 'Industrial Washing Machine',
+      description: 'Heavy-duty commercial washing machine perfect for laundry businesses. High capacity, energy efficient.',
+      capacity: '15kg - 25kg',
+      price: 'Contact for Price',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.31.46 (4).jpeg',
+      features: ['Energy Efficient', 'Multiple Wash Programs', 'Stainless Steel Drum', 'Low Noise Operation'],
+    },
+    {
+      id: 8,
+      name: 'Commercial Dryer',
+      description: 'Professional-grade dryer with fast drying cycles and gentle fabric care technology.',
+      capacity: '15kg - 20kg',
+      price: 'Contact for Price',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.31.46 (6).jpeg',
+      features: ['Quick Dry Technology', 'Multiple Heat Settings', 'Large Capacity', 'Auto Sensor'],
+    },
+    {
+      id: 9,
+      name: 'Steam Press Iron',
+      description: 'Industrial steam press for crisp, professional finishing on all types of garments.',
+      capacity: 'Professional Grade',
+      price: 'Contact for Price',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.31.46 (5).jpeg',
+      features: ['High Steam Output', 'Temperature Control', 'Non-Stick Plates', 'Safety Features'],
+    },
+    {
+      id: 10,
+      name: 'Dry Cleaning Machine',
+      description: 'Eco-friendly dry cleaning system for delicate fabrics and professional garment care.',
+      capacity: '10kg - 15kg',
+      price: 'Contact for Price',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.31.46 (7).jpeg',
+      features: ['Eco-Friendly Solvent', 'Gentle on Fabrics', 'Self-Cleaning', 'Digital Controls'],
+    },
+    {
+      id: 11,
+      name: 'Commercial Ironing System',
+      description: 'Professional ironing system with steam generator for high-volume pressing needs.',
+      capacity: 'Heavy Duty',
+      price: 'Contact for Price',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.31.46.jpeg',
+      features: ['Steam Generator', 'Adjustable Height', 'Anti-Shine Plates', 'Auto Shut-Off'],
+    },
+    {
+      id: 12,
+      name: 'Washer-Extractor Machine',
+      description: 'High-speed extraction washing machine for maximum water removal and faster drying.',
+      capacity: '20kg - 30kg',
+      price: 'Contact for Price',
+      image: '/images/shop/machines/WhatsApp Image 2026-02-23 at 23.31.46 (1).jpeg',
+      features: ['High-Speed Extract', 'Programmable Controls', 'Water Recycling', 'Heavy Duty Motor'],
     },
   ];
 
@@ -49,6 +121,7 @@ const Shop = () => {
       description: 'Professional-grade detergent for tough stains and fresh scent.',
       size: '20L / 25kg',
       price: 'Contact for Price',
+      image: '/images/shop/materials/WhatsApp Image 2026-02-19 at 10.01.49.jpeg',
     },
     {
       id: 2,
@@ -56,6 +129,7 @@ const Shop = () => {
       description: 'Concentrated fabric softener for soft, fresh-smelling clothes.',
       size: '20L',
       price: 'Contact for Price',
+      image: '/images/shop/materials/WhatsApp Image 2026-02-19 at 09.50.06.jpeg',
     },
     {
       id: 3,
@@ -63,6 +137,7 @@ const Shop = () => {
       description: 'Industrial-strength stain remover for all fabric types.',
       size: '5L / 10L',
       price: 'Contact for Price',
+      image: '/images/shop/materials/essential-laundry-room-tools-1900256-04-320cb2c83e26410d8af537b57f8203e3.jpg',
     },
     {
       id: 4,
@@ -70,6 +145,7 @@ const Shop = () => {
       description: 'Eco-friendly solvent for professional dry cleaning.',
       size: '20L',
       price: 'Contact for Price',
+      image: '/images/shop/materials/home+and+laundry.webp',
     },
     {
       id: 5,
@@ -77,6 +153,7 @@ const Shop = () => {
       description: 'Durable mesh laundry bags in various sizes.',
       size: 'Various Sizes',
       price: 'Contact for Price',
+      image: '/images/shop/materials/essential-laundry-room-tools-1900256-05-6844edcf9e324e8da14da7aef588531a.jpg',
     },
     {
       id: 6,
@@ -84,6 +161,7 @@ const Shop = () => {
       description: 'Professional garment covers for finished items.',
       size: 'Pack of 100',
       price: 'Contact for Price',
+      image: '/images/shop/materials/vector-cartoon-set-cleaning-laundry-260nw-2298869685.webp',
     },
   ];
 
@@ -96,7 +174,7 @@ const Shop = () => {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=1920&q=80"
+            src="/images/shop/Equipment and Facilities.jpg"
             alt="Laundry Equipment"
             className="w-full h-full object-cover"
           />
@@ -146,42 +224,31 @@ const Shop = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {machines.map((machine) => (
               <div
                 key={machine.id}
-                className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+                className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100"
               >
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-48 overflow-hidden bg-gray-100">
                   <img
                     src={machine.image}
                     alt={machine.name}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 bg-elara-600 text-white px-4 py-1 rounded-full text-sm font-medium">
-                    {machine.capacity}
-                  </div>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{machine.name}</h3>
+                <div className="p-5">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{machine.name}</h3>
                   <p className="text-gray-600 text-sm mb-4">{machine.description}</p>
-                  <div className="grid grid-cols-2 gap-2 mb-4">
-                    {machine.features.map((feature, index) => (
-                      <div key={index} className="flex items-center text-sm text-gray-600">
-                        <HiCheck className="text-green-500 mr-2 flex-shrink-0" />
-                        {feature}
-                      </div>
-                    ))}
-                  </div>
-                  <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                    <span className="text-elara-600 font-semibold">{machine.price}</span>
+                  <div className="flex items-center justify-between pt-3 border-t border-gray-100">
+                    <span className="text-elara-600 font-semibold text-sm">{machine.price}</span>
                     <a
                       href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello! I am interested in the ${machine.name}. Please provide more details.`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center text-sm font-medium text-white bg-green-500 px-4 py-2 rounded-full hover:bg-green-600 transition-colors"
+                      className="inline-flex items-center text-xs font-medium text-white bg-green-500 px-3 py-1.5 rounded-full hover:bg-green-600 transition-colors"
                     >
-                      <FaWhatsapp className="mr-2" />
+                      <FaWhatsapp className="mr-1" />
                       Enquire
                     </a>
                   </div>
@@ -209,16 +276,30 @@ const Shop = () => {
             {materials.map((material) => (
               <div
                 key={material.id}
-                className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100"
+                className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100"
               >
-                <div className="w-12 h-12 rounded-xl bg-elara-100 flex items-center justify-center mb-4">
-                  <HiShoppingCart className="text-elara-600 text-xl" />
+                <div className="relative h-48 overflow-hidden bg-gray-100">
+                  <img
+                    src={material.image}
+                    alt={material.name}
+                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{material.name}</h3>
-                <p className="text-gray-600 text-sm mb-3">{material.description}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-gray-500">{material.size}</span>
-                  <span className="text-elara-600 font-medium text-sm">{material.price}</span>
+                <div className="p-5">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{material.name}</h3>
+                  <p className="text-gray-600 text-sm mb-4">{material.description}</p>
+                  <div className="flex items-center justify-between pt-3 border-t border-gray-100">
+                    <span className="text-elara-600 font-semibold text-sm">{material.price}</span>
+                    <a
+                      href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello! I am interested in ${material.name}. Please provide more details.`)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-xs font-medium text-white bg-green-500 px-3 py-1.5 rounded-full hover:bg-green-600 transition-colors"
+                    >
+                      <FaWhatsapp className="mr-1" />
+                      Enquire
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
