@@ -97,8 +97,8 @@ const Home = () => {
         {/* Background */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80"
-            alt="Professional cleaning services"
+            src="https://images.unsplash.com/photo-1567113463300-102a7eb3cb26?w=1920&q=80"
+            alt="Professional laundry shop"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-elara-950/70 via-elara-900/60 to-elara-800/40"></div>
