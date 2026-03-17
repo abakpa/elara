@@ -9,7 +9,7 @@ import {
   HiArrowRight,
   HiCheck,
 } from 'react-icons/hi';
-import { FaTshirt, FaSocks, FaWind, FaBuilding, FaBug } from 'react-icons/fa';
+import { FaTshirt, FaBuilding, FaBug } from 'react-icons/fa';
 
 const Home = () => {
   const features = [
