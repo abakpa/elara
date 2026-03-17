@@ -68,7 +68,7 @@ const Contact = () => {
             alt="Contact us"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-elara-950/95 to-elara-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-elara-950/70 to-elara-900/50"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -202,6 +202,8 @@ const Contact = () => {
                       <option value="shoe-cleaning">Shoe Cleaning</option>
                       <option value="upholstery">Upholstery Cleaning</option>
                       <option value="express">Express Service</option>
+                      <option value="industrial-cleaning">Industrial Cleaning</option>
+                      <option value="fumigation">Fumigation Services</option>
                     </select>
                   </div>
                 </div>
@@ -242,7 +244,7 @@ const Contact = () => {
                       Chat with us directly on WhatsApp for quick responses and easy scheduling.
                     </p>
                     <a
-                      href="https://wa.me/2349015156025?text=Hello%20EL'ARA!%20I%20would%20like%20to%20inquire%20about%20your%20laundry%20services."
+                      href="https://wa.me/2349015156025?text=Hello%20ELERA!%20I%20would%20like%20to%20inquire%20about%20your%20laundry%20services."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-green-600 font-semibold text-sm hover:text-green-700 transition-colors"
@@ -258,7 +260,7 @@ const Contact = () => {
             <div>
               <div className="bg-gray-50 rounded-2xl overflow-hidden h-80 mb-8">
                 <iframe
-                  title="EL'ARA Location"
+                  title="ELERA Location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31529.8!2d7.5!3d9.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0a1b5e3d2c67%3A0x8a8b8c8d8e8f9091!2sKaru%2C%20Abuja%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1645564756836!5m2!1sen!2sng"
                   width="100%"
                   height="100%"
@@ -272,7 +274,7 @@ const Contact = () => {
               {/* Additional Info */}
               <div className="bg-elara-50 rounded-2xl p-8">
                 <h3 className="text-xl font-display font-bold text-gray-900 mb-6">
-                  Why Choose EL'ARA?
+                  Why Choose ELERA?
                 </h3>
                 <ul className="space-y-4">
                   {[

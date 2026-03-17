@@ -13,6 +13,8 @@ import {
   FaShoePrints,
   FaCouch,
   FaBed,
+  FaBuilding,
+  FaBug,
 } from 'react-icons/fa';
 import { GiWashingMachine } from 'react-icons/gi';
 
@@ -106,6 +108,28 @@ const Services = () => {
       bgColor: 'bg-emerald-50',
       image: 'https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?w=600&q=80',
     },
+    {
+      icon: FaBuilding,
+      title: 'Industrial Cleaning',
+      description:
+        'Professional industrial cleaning services for offices, commercial spaces, warehouses, and factories. We tackle tough cleaning challenges with industrial-grade equipment.',
+      features: ['Office deep cleaning', 'Warehouse cleaning', 'Factory floor cleaning', 'Post-construction cleanup'],
+      price: 'Custom Quote',
+      color: 'from-slate-500 to-slate-600',
+      bgColor: 'bg-slate-50',
+      image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80',
+    },
+    {
+      icon: FaBug,
+      title: 'Fumigation Services',
+      description:
+        'Comprehensive fumigation and pest control services for residential and commercial properties. We eliminate pests and ensure a healthy, pest-free environment.',
+      features: ['Residential fumigation', 'Commercial pest control', 'Termite treatment', 'Preventive pest management'],
+      price: 'Custom Quote',
+      color: 'from-lime-500 to-lime-600',
+      bgColor: 'bg-lime-50',
+      image: 'https://images.unsplash.com/photo-1632494823367-afa25de7cb1e?w=600&q=80',
+    },
   ];
 
   const pricingPlans = [
@@ -164,7 +188,7 @@ const Services = () => {
             alt="Services"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-elara-950/95 to-elara-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-elara-950/70 to-elara-900/50"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -181,8 +205,8 @@ const Services = () => {
               </span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              From everyday laundry to specialized cleaning, we offer a comprehensive range of services
-              designed to keep your garments fresh, clean, and looking their best.
+              From everyday laundry to industrial cleaning and fumigation services, we offer a comprehensive range of solutions
+              designed to keep your garments fresh, spaces clean, and environments pest-free.
             </p>
           </div>
         </div>
@@ -194,10 +218,10 @@ const Services = () => {
           <div className="text-center mb-16">
             <span className="text-elara-600 font-semibold text-sm uppercase tracking-wider">Our Services</span>
             <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mt-3 mb-4">
-              Complete Laundry & Cleaning Solutions
+              Complete Laundry, Industrial Cleaning & Fumigation Solutions
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Whatever your cleaning needs, we have the expertise and equipment to deliver outstanding results.
+              Whatever your cleaning needs, from laundry to industrial cleaning and fumigation, we have the expertise and equipment to deliver outstanding results.
             </p>
           </div>
 

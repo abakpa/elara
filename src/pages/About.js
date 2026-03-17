@@ -54,10 +54,11 @@ const About = () => {
   ];
 
   const milestones = [
-    { year: '2016', title: 'Founded', description: "EL'ARA was born in October from a passion for premium fabric care." },
+    { year: '2016', title: 'Founded', description: "ELERA was born in October from a passion for premium fabric care." },
     { year: '2018', title: 'Expanded Services', description: 'Added dry cleaning and specialty garment care.' },
     { year: '2021', title: 'Pickup & Delivery', description: 'Launched our convenient doorstep service.' },
-    { year: '2025', title: '10,000 Customers', description: 'Reached a milestone of 10,000 happy customers.' },
+    { year: '2023', title: 'Industrial Cleaning & Fumigation', description: 'Expanded into industrial cleaning and fumigation services.' },
+    { year: '2025', title: '2,500+ Customers', description: 'Reached a milestone of 2,500+ happy customers.' },
   ];
 
   return (
@@ -66,11 +67,11 @@ const About = () => {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1521656693700-f4d769312e73?w=1920&q=80"
-            alt="About EL'ARA"
+            src="https://images.unsplash.com/photo-1558317374-067fb5f30001?w=1920&q=80"
+            alt="About ELERA - Laundry, Industrial Cleaning and Fumigation"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-elara-950/95 to-elara-900/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-elara-950/70 to-elara-900/50"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -87,7 +88,7 @@ const About = () => {
               </span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              At EL'ARA, we believe that clean clothes are more than just a necessity &mdash; they're a
+              At ELERA, we believe that clean clothes are more than just a necessity &mdash; they're a
               reflection of how you present yourself to the world. That's why we pour passion and
               expertise into every garment we touch.
             </p>
@@ -100,25 +101,31 @@ const About = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <span className="text-elara-600 font-semibold text-sm uppercase tracking-wider">About EL'ARA</span>
+              <span className="text-elara-600 font-semibold text-sm uppercase tracking-wider">About ELERA</span>
               <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mt-3 mb-6">
                 Built on a Foundation of Excellence
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in October 2016, EL'ARA began with a simple mission: to redefine the laundry experience.
+                  Founded in October 2016, ELERA began with a simple mission: to redefine the laundry experience.
                   We noticed that most laundry services treated garments as just another load of clothes.
                   We believed there was a better way.
                 </p>
                 <p>
-                  Today, EL'ARA is trusted by thousands of customers who value quality, convenience,
+                  Today, ELERA is trusted by thousands of customers who value quality, convenience,
                   and sustainability. Our team of skilled professionals uses state-of-the-art equipment
                   and eco-friendly products to ensure every garment receives the care it deserves.
                 </p>
                 <p>
-                  From everyday laundry to specialized cleaning for luxury fabrics, we handle it all
-                  with the same level of dedication and expertise that has made us a leading name in
-                  the industry.
+                  Beyond laundry, ELERA has expanded into industrial cleaning and fumigation services,
+                  providing comprehensive solutions for businesses, offices, and residential properties.
+                  Our fumigation services ensure pest-free environments while our industrial cleaning
+                  tackles even the toughest commercial cleaning challenges.
+                </p>
+                <p>
+                  From everyday laundry to specialized cleaning for luxury fabrics, industrial cleaning,
+                  and fumigation services, we handle it all with the same level of dedication and expertise
+                  that has made us a leading name in the industry.
                 </p>
               </div>
 
@@ -139,8 +146,8 @@ const About = () => {
 
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?w=800&q=80"
-                alt="EL'ARA laundry facility"
+                src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=800&q=80"
+                alt="ELERA laundry facility"
                 className="rounded-2xl shadow-xl w-full h-[500px] object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-elara-600 text-white p-6 rounded-2xl shadow-xl">
@@ -229,7 +236,7 @@ const About = () => {
           <div className="text-center mb-16">
             <span className="text-elara-600 font-semibold text-sm uppercase tracking-wider">Our Team</span>
             <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mt-3 mb-4">
-              Meet the People Behind EL'ARA
+              Meet the People Behind ELERA
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               A dedicated team of professionals committed to delivering exceptional service.
@@ -263,7 +270,7 @@ const About = () => {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <HiShieldCheck className="text-white/30 text-6xl mx-auto mb-6" />
           <h2 className="text-3xl sm:text-4xl font-display font-bold text-white mb-6">
-            Ready to Experience the EL'ARA Difference?
+            Ready to Experience the ELERA Difference?
           </h2>
           <p className="text-elara-100 text-lg mb-8 max-w-2xl mx-auto">
             Join thousands of satisfied customers who trust us with their garments.

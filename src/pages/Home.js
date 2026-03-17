@@ -9,7 +9,7 @@ import {
   HiArrowRight,
   HiCheck,
 } from 'react-icons/hi';
-import { FaTshirt, FaSocks, FaWind } from 'react-icons/fa';
+import { FaTshirt, FaSocks, FaWind, FaBuilding, FaBug } from 'react-icons/fa';
 
 const Home = () => {
   const features = [
@@ -49,16 +49,16 @@ const Home = () => {
       color: 'from-purple-500 to-purple-600',
     },
     {
-      icon: FaWind,
-      title: 'Iron & Press',
-      description: 'Crisp, wrinkle-free clothes with professional steam pressing.',
-      color: 'from-orange-500 to-orange-600',
+      icon: FaBuilding,
+      title: 'Industrial Cleaning',
+      description: 'Professional cleaning for offices, commercial spaces, and factories.',
+      color: 'from-slate-500 to-slate-600',
     },
     {
-      icon: FaSocks,
-      title: 'Stain Removal',
-      description: 'Advanced stain treatment for even the toughest marks and spots.',
-      color: 'from-rose-500 to-rose-600',
+      icon: FaBug,
+      title: 'Fumigation Services',
+      description: 'Comprehensive pest control and fumigation for all property types.',
+      color: 'from-lime-500 to-lime-600',
     },
   ];
 
@@ -66,25 +66,25 @@ const Home = () => {
     {
       name: 'Sarah Okafor',
       role: 'Regular Customer',
-      text: "EL'ARA has transformed my weekly routine. The pickup and delivery service is a game-changer. My clothes have never looked better!",
+      text: "ELERA has transformed my weekly routine. The pickup and delivery service is a game-changer. My clothes have never looked better!",
       rating: 5,
     },
     {
       name: 'Michael Olumide',
       role: 'Business Professional',
-      text: "I trust EL'ARA with all my suits and dress shirts. Their dry cleaning quality is exceptional, and the turnaround time is impressive.",
+      text: "I trust ELERA with all my suits and dress shirts. Their dry cleaning quality is exceptional, and the turnaround time is impressive.",
       rating: 5,
     },
     {
       name: 'Aisha Hassan',
       role: 'Busy Mom',
-      text: "As a mother of three, EL'ARA is a lifesaver. They handle everything from school uniforms to delicates with absolute care.",
+      text: "As a mother of three, ELERA is a lifesaver. They handle everything from school uniforms to delicates with absolute care.",
       rating: 5,
     },
   ];
 
   const stats = [
-    { number: '10K+', label: 'Happy Customers' },
+    { number: '2.5K+', label: 'Happy Customers' },
     { number: '50K+', label: 'Garments Cleaned' },
     { number: '99%', label: 'Satisfaction Rate' },
     { number: '9+', label: 'Years Experience' },
@@ -97,11 +97,11 @@ const Home = () => {
         {/* Background */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1545173168-9f1947eebb7f?w=1920&q=80"
-            alt="Fresh clean laundry"
+            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80"
+            alt="Professional cleaning services"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-elara-950/90 via-elara-900/80 to-elara-800/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-elara-950/70 via-elara-900/60 to-elara-800/40"></div>
         </div>
 
         {/* Decorative Elements */}
@@ -112,7 +112,7 @@ const Home = () => {
           <div className="max-w-3xl">
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8">
               <HiSparkles className="text-gold-400" />
-              <span className="text-white/90 text-sm font-medium">Premium Laundry & Cleaning Services</span>
+              <span className="text-white/90 text-sm font-medium">Premium Laundry, Industrial Cleaning & Fumigation Services</span>
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-white leading-tight mb-6">
@@ -124,8 +124,8 @@ const Home = () => {
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl">
-              Experience premium laundry services that treat your clothes with the care they deserve.
-              From everyday wear to delicate fabrics, we handle it all with expertise and love.
+              Experience premium laundry, industrial cleaning, and fumigation services that deliver excellence.
+              From everyday wear to commercial spaces and pest control, we handle it all with expertise.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -147,7 +147,7 @@ const Home = () => {
                 <span className="text-white/80 text-sm ml-2">4.9/5 Rating</span>
               </div>
               <div className="h-6 w-px bg-white/20 hidden sm:block"></div>
-              <p className="text-white/80 text-sm">Trusted by 10,000+ customers</p>
+              <p className="text-white/80 text-sm">Trusted by 2,500+ customers</p>
             </div>
           </div>
         </div>
@@ -159,7 +159,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <span className="text-elara-600 font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
             <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mt-3 mb-4">
-              The EL'ARA Difference
+              The ELERA Difference
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We go beyond cleaning clothes. We deliver an experience that saves you time,
@@ -193,7 +193,7 @@ const Home = () => {
               What We Offer
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Comprehensive laundry and cleaning solutions tailored to your needs.
+              Comprehensive laundry, industrial cleaning, and fumigation solutions tailored to your needs.
             </p>
           </div>
 
@@ -255,7 +255,7 @@ const Home = () => {
                 step: '02',
                 title: 'We Clean & Care',
                 description: 'Our experts clean your garments using premium products and techniques.',
-                image: 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=600&q=80',
+                image: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?w=600&q=80',
               },
               {
                 step: '03',
@@ -291,7 +291,7 @@ const Home = () => {
             alt="Laundry background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-elara-900/90"></div>
+          <div className="absolute inset-0 bg-elara-900/70"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">

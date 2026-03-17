@@ -51,7 +51,7 @@ const Navbar = () => {
                 scrolled ? 'text-elara-800' : 'text-white'
               }`}
             >
-              EL'ARA
+              ELERA
             </span>
           </Link>
 

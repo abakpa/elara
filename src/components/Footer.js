@@ -15,7 +15,7 @@ const Footer = () => {
                 Ready for Fresh, Clean Clothes?
               </h3>
               <p className="text-elara-100 mt-2">
-                Schedule a pickup today and experience the EL'ARA difference.
+                Schedule a pickup today and experience the ELERA difference.
               </p>
             </div>
             <Link
@@ -37,7 +37,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-full bg-elara-600 flex items-center justify-center">
                 <span className="text-white font-display font-bold text-xl">E</span>
               </div>
-              <span className="font-display text-2xl font-bold tracking-wide">EL'ARA</span>
+              <span className="font-display text-2xl font-bold tracking-wide">ELERA</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Premium laundry and cleaning services that bring freshness and care to every garment.
@@ -94,8 +94,8 @@ const Footer = () => {
                 'Dry Cleaning',
                 'Iron & Press',
                 'Stain Removal',
-                'Curtain Cleaning',
-                'Shoe Cleaning',
+                'Industrial Cleaning',
+                'Fumigation Services',
               ].map((service) => (
                 <li key={service}>
                   <Link
@@ -147,7 +147,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} EL'ARA Laundry Services. All rights reserved.
+              &copy; {new Date().getFullYear()} ELERA Laundry Services. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#privacy" className="text-gray-500 hover:text-white transition-colors text-sm">
