@@ -66,19 +66,19 @@ const Home = () => {
     {
       name: 'Sarah Okafor',
       role: 'Regular Customer',
-      text: "ELERA has transformed my weekly routine. The pickup and delivery service is a game-changer. My clothes have never looked better!",
+      text: "ELARA has transformed my weekly routine. The pickup and delivery service is a game-changer. My clothes have never looked better!",
       rating: 5,
     },
     {
       name: 'Michael Olumide',
       role: 'Business Professional',
-      text: "I trust ELERA with all my suits and dress shirts. Their dry cleaning quality is exceptional, and the turnaround time is impressive.",
+      text: "I trust ELARA with all my suits and dress shirts. Their dry cleaning quality is exceptional, and the turnaround time is impressive.",
       rating: 5,
     },
     {
       name: 'Aisha Hassan',
       role: 'Busy Mom',
-      text: "As a mother of three, ELERA is a lifesaver. They handle everything from school uniforms to delicates with absolute care.",
+      text: "As a mother of three, ELARA is a lifesaver. They handle everything from school uniforms to delicates with absolute care.",
       rating: 5,
     },
   ];
@@ -159,7 +159,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <span className="text-elara-600 font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
             <h2 className="text-3xl sm:text-4xl font-display font-bold text-gray-900 mt-3 mb-4">
-              The ELERA Difference
+              The ELARA Difference
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We go beyond cleaning clothes. We deliver an experience that saves you time,

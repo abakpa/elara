@@ -5,7 +5,7 @@ import { HiX } from 'react-icons/hi';
 const WhatsAppButton = () => {
   const [showTooltip, setShowTooltip] = useState(false);
   const phoneNumber = '2349015156025';
-  const message = encodeURIComponent("Hello EL'ARA! I would like to inquire about your laundry services.");
+  const message = encodeURIComponent("Hello ELARA! I would like to inquire about your laundry services.");
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end space-y-3">
@@ -18,7 +18,7 @@ const WhatsAppButton = () => {
                 <FaWhatsapp className="text-white text-sm" />
               </div>
               <div>
-                <p className="font-semibold text-gray-800 text-sm">EL'ARA Support</p>
+                <p className="font-semibold text-gray-800 text-sm">ELARA Support</p>
                 <p className="text-xs text-green-500">Online</p>
               </div>
             </div>
