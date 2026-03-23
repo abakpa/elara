@@ -47,7 +47,7 @@ const Contact = () => {
     {
       icon: HiMail,
       title: 'Email Us',
-      details: ['hello@elara.com', 'support@elara.com'],
+      details: ['support@elaranigeria.com'],
       color: 'from-orange-500 to-orange-600',
     },
     {
